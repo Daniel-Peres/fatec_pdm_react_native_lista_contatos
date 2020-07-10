@@ -25,7 +25,7 @@ const NovoContatoTela = (props) => {
     }
 
     return (
-        <View>
+        <View style={{ height: '100%', backgroundColor: '#EAE59F' }}>
             <View>
                 <ContatoInput
                     onAdicionarContato={adicionarContato}
@@ -33,6 +33,15 @@ const NovoContatoTela = (props) => {
             </View>
         </View>
     );
+}
+
+NovoContatoTela.navigationOptions = dadosNav => {
+    return {
+        headerTitle: 'Novo Contato',
+        headerStyle: {
+            backgroundColor: '#E3A631'
+        }
+    }
 }
 
 const estilos = StyleSheet.create({

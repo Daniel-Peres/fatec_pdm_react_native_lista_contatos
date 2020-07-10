@@ -28,7 +28,7 @@ const ContatoInput = (props) => {
                         setNome('');
                         setTelefone('');
                     }}
-                    color='green' />
+                    color='#E3A631' />
             </View>
         </View>
     );

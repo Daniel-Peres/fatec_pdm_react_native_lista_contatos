@@ -18,7 +18,7 @@ const ListaContatosTela = (props) => {
     }
     
     return (        
-        <View >
+        <View style={{height: '100%', backgroundColor: '#EAE59F'}}>
             <FlatList 
                 data={contatos}
                 keyExtractor={contato => contato.key}
@@ -37,6 +37,9 @@ const ListaContatosTela = (props) => {
 ListaContatosTela.navigationOptions = dadosNav  => {
     return {
         headerTitle: 'Lista de contatos',
+        headerStyle: {
+            backgroundColor: '#E3A631'
+        },
         headerRight: () =>
             <HeaderButtons
                 HeaderButtonComponent={BotaoCabecalho}>
