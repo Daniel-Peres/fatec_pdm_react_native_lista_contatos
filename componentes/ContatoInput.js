@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, StyleSheet, TextInput, Button } from 'react-native';
+import { Text,View, StyleSheet, TextInput, Button } from 'react-native';
 
 const ContatoInput = (props) => {
 
@@ -30,12 +30,6 @@ const ContatoInput = (props) => {
                     }}
                     color='green' />
             </View>
-            {/* <View style={estilos.botao}>
-                <Button
-                    title="Limpar Contatos"
-                    onPress={() => { props.onApagarTudo() }}
-                    color='red' />
-            </View> */}
         </View>
     );
 }
@@ -53,6 +47,12 @@ const estilos = StyleSheet.create({
         marginTop: 8,
         alignItems: 'center'
 
+    },
+    texto: {
+        width: '80%',
+        marginTop: 8,
+        marginBottom: 8,
+        alignContent:"center"
     },
 
     botao: {

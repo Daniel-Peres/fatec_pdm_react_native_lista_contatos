@@ -19,7 +19,7 @@ const estilos = StyleSheet.create({
         backgroundColor: '#EEE',
         borderColor: '#000',
         borderWidth: 1,
-        marginTop: 3,
+        marginTop: 8,
         borderRadius: 12,
         fontSize: 16,
         width: '80%',

@@ -9,7 +9,6 @@ import * as contatosActions from '../store/contatos-actions';
 
 const NovoContatoTela = (props) => {
 
-
     const dispatch = useDispatch();
 
     const adicionarContato = (nome, telefone) => {
